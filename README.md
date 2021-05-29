@@ -50,7 +50,7 @@ url -> https://instaloader.github.io/#
   Create a virtual environment using this command -> virtualenv main
 </p>
 <p>
-  Now activate the virtual environment <b>cd main</b> > <b>cd Scripts</b> > <b>activate</b>
+  Now activate the virtual environment -> <b>cd main</b> > <b>cd Scripts</b> > <b>activate</b>
 </p>
 <p>
   Back to project folder -> <b>cd..</b> > <b>cd..</b>
