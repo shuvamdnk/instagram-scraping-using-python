@@ -4,7 +4,8 @@ This is a small python project using flask.
 Using this project you can view instagram users details and you can also download any public users posts.
 <br>
 <h2>Project Demo</h2>
-https://ssdd11.pythonanywhere.com/
+<a href="https://ssdd11.pythonanywhere.com/">Demo</a>
+<br>
 I used a powerfull module name Instaloader
 <br>
 <br>
@@ -35,7 +36,7 @@ url -> https://instaloader.github.io/#
 
 <br>
 <h2>How to use this project</h2>
-<p>download this project using this command ->  git clone https://github.com/shuvamdnk/Scraping-Instagram-Using-Python-.git </p>
+<p>Download this project using this command ->  git clone https://github.com/shuvamdnk/Scraping-Instagram-Using-Python-.git </p>
 <p>
   Install Virtual Environment module using this command -> pip install --user virtualenv
 </p>
@@ -64,5 +65,27 @@ url -> https://instaloader.github.io/#
 <p>
   Open the url in browser  http://127.0.0.1:5000/
 </p>
+
+
+<h2>Flask</h2>
+<br>
+<p>Learm flask</p>
+https://flask.palletsprojects.com/en/2.0.x/
+
+Contributing
+For guidance on setting up a development environment and how to make a contribution to Flask, see the contributing guidelines.
+
+Donate
+The Pallets organization develops and supports Flask and the libraries it uses. In order to grow the community of contributors and users, and allow the maintainers to devote more time to the projects, please donate today.
+
+Links
+Documentation: https://flask.palletsprojects.com/
+Changes: https://flask.palletsprojects.com/changes/
+PyPI Releases: https://pypi.org/project/Flask/
+Source Code: https://github.com/pallets/flask/
+Issue Tracker: https://github.com/pallets/flask/issues/
+Website: https://palletsprojects.com/p/flask/
+Twitter: https://twitter.com/PalletsTeam
+Chat: https://discord.gg/pallets
 
 
