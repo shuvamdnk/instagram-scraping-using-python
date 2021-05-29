@@ -53,7 +53,7 @@ url -> https://instaloader.github.io/#
   Now activate the virtual environment <b>cd main</b> > <b>cd Scripts</b> > <b>activate</b>
 </p>
 <p>
-  Back to project folder <b>cd..</b> > <b>cd..</b>
+  Back to project folder -> <b>cd..</b> > <b>cd..</b>
 </p>
 <p>
   Now you have to install those modules.
