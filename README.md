@@ -3,10 +3,12 @@ This is a small python project using flask.
 
 Using this project you can view instagram users details and you can also download any public users posts.
 <br>
+<h2>Project Demo</h2>
+https://ssdd11.pythonanywhere.com/
 I used a powerfull module name Instaloader
 <br>
 <br>
-<h2>module details</h2>
+<h2>Module details</h2>
 <h3>Instaloader</h3>
 url -> https://instaloader.github.io/#
 <p>Instaloader is a tool to download pictures (or videos) along with       their captions and other metadata from Instagram.</p>
