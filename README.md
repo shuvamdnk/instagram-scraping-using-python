@@ -4,8 +4,11 @@ This is a small python project using flask.
 Using this project you can view instagram users details and you can also download any public users posts.
 <br>
 <h2>Project Demo</h2>
-<a href="https://ssdd11.pythonanywhere.com/">Demo</a>
+<h1><a href="https://ssdd11.pythonanywhere.com/">Demo</a></h1>
 <br>
+<img src="https://i.ibb.co/yhjRQV0/Screenshot-1326.png" width="100%"/>
+<img src="https://i.ibb.co/55HRtMs/Screenshot-1327.png" width="100%"/>
+
 I used a powerfull module name Instaloader
 <br>
 <br>
