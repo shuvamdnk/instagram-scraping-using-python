@@ -1,5 +1,5 @@
 # Scraping-Instagram-Using-Python
-This is a small python project using flask.
+This is a small python project using flask and Instaloader.
 
 Using this project you can view instagram users details and you can also download any public users posts.
 <br>
@@ -15,7 +15,7 @@ I used a powerfull module name Instaloader
 <h2>Module details</h2>
 <h3>Instaloader</h3>
 url -> https://instaloader.github.io/#
-<p>Instaloader is a tool to download pictures (or videos) along with       their captions and other metadata from Instagram.</p>
+<p>Instaloader is a tool to download pictures (or videos) along with their captions and other metadata from Instagram.</p>
 <ul>
   <li>
     downloads public and private profiles, hashtags, user stories, feeds and saved media,
@@ -50,10 +50,10 @@ url -> https://instaloader.github.io/#
   Create a virtual environment using this command -> virtualenv main
 </p>
 <p>
-  Now activate the virtual environment <b>cd main</b> , <b>cd Scripts</b> ,<b>activate</b>
+  Now activate the virtual environment <b>cd main</b> > <b>cd Scripts</b> > <b>activate</b>
 </p>
 <p>
-  Back to project folder <b>cd..</b> , <b>cd..</b>
+  Back to project folder <b>cd..</b> > <b>cd..</b>
 </p>
 <p>
   Now you have to install those modules.
