@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Instagram</title>
+	    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ins Profile</title>
+    <link rel="stylesheet" href="static/dist/css/lightbox.min.css"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+
+     <link rel="stylesheet" href="http://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+
+     <link href="static/assets/prism.css" media="all" rel="stylesheet" type="text/css">
+     <link href="static/dist/css/lity.css" rel="stylesheet"/>
+
+ <style>
+ .pb-full {
+  padding-bottom: 100%;
+}
+
+/* hide search icon on search focus */
+.search-bar:focus + .fa-search{
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .post:hover .overlay {
+    display: block;
+  }
+}
+
+    </style>
+</head>
+<body>
+    
+
+    <!-- nav -->
+    <nav class="border-b px-4 py-2 bg-white">
+      <div class="flex flex-wrap items-center justify-between md:justify-around">
+        <!-- logo -->
+        <a href="/">
+          <img class="h-10" src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Instagram_logo.svg/150px-Instagram_logo.svg.png" alt="instagram">
+        </a>
+        
+    
+        <!-- search-->
+        <div class="relative hidden sm:block text-gray-500">
+          <form action="/profile" method="post">
+            <input id='autocomplete' name="user" class="search-bar max-w-xs border rounded bg-gray-200 px-4
+                text-center outline-none focus:border-gray-400" type="search" placeholder="Search">
+          <i class="fa fa-search absolute top-0 left-0 ml-12 mt-1"></i>
+          </form>
+          
+        </div>
+    
+        <div class="space-x-4">
+          <a class="inline-block bg-blue-500 px-2 py-1 text-white font-semibold 
+                               text-sm rounded" href="#">Log In</a>
+          <a class="inline-block text-blue-500 font-semibold text-sm" href="#">Sign Up</a>
+        </div>
+      </div>
+    </nav>
+
+
+
+<!-- <a class="btn" href="https://www.youtube.com/watch?v=EnuGdwI0W1g" data-lity>Vimeo</a> -->
+
+
+
+
+{% block body %} {% endblock %}
+
+
+
+
+      
+
+  <script type="text/javascript">
+    function changeAtiveTab(event,tabID){
+      let element = event.target;
+      while(element.nodeName !== "A"){
+        element = element.parentNode;
+      }
+      ulElement = element.parentNode.parentNode;
+      aElements = ulElement.querySelectorAll("li > a");
+      tabContents = document.getElementById("tabs-id").querySelectorAll(".tab-content > div");
+      for(let i = 0 ; i < aElements.length; i++){
+        // aElements[i].classList.remove("text-white");
+        // aElements[i].classList.remove("bg-indigo-600");
+        // aElements[i].classList.add("text-indigo-600");
+        // aElements[i].classList.add("bg-white");
+        tabContents[i].classList.add("hidden");
+        tabContents[i].classList.remove("block");
+      }
+      // element.classList.remove("text-indigo-600");
+      // element.classList.remove("bg-white");
+      // element.classList.add("text-white");
+      // element.classList.add("bg-indigo-600");
+      document.getElementById(tabID).classList.remove("hidden");
+      document.getElementById(tabID).classList.add("block");
+    }
+  </script>
+
+    <script src="static/dist/js/lightbox-plus-jquery.min.js"></script>
+    <script src="static/vendor/jquery.js"></script>
+    <script src="static/dist//js/lity.js"></script>
+
+    <script src="static/assets/prism.js"></script>
+
+
+ 
+</body>
+</html>
