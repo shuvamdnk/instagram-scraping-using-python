@@ -10,7 +10,7 @@
   
         <div class="md:w-3/12 md:ml-16">
           <!-- profile image -->
-          <img class="w-20 h-20 md:w-40 md:h-40 object-cover rounded-full
+          <img crossorigin='anonymous' class="w-20 h-20 md:w-40 md:h-40 object-cover rounded-full
                        border-2 border-pink-600 p-1" src="{{profile_pic}}" alt=".">
         </div>
   
@@ -133,12 +133,12 @@
                         {% if f==0 %}
                         <a class="example-image-link" href="{{a}}" data-lightbox="example-set" data-title="{{c}} {{b}} {{d}}">
                           <article class="post bg-gray-100 text-white relative pb-full md:mb-6">
-                          <img class="example-image w-full h-full absolute left-0 top-0 object-cover" src="{{a}}" alt="."/>
+                          <img crossorigin='anonymous' class="example-image w-full h-full absolute left-0 top-0 object-cover" src="{{a}}" alt="."/>
                           <i class="fas fa-square absolute right-0 top-0 m-1"></i>
                           {% else %}
                           <a class="" href="{{a}}" data-lity>
                           <article class="post bg-gray-100 text-white relative pb-full md:mb-6">
-                            <video controls class="example-image w-full h-full absolute left-0 top-0 object-cover">
+                            <video crossorigin='anonymous' controls class="example- w-full h-full absolute left-0 top-0 object-cover">
                               <source src="{{a}}" type="video/mp4">
                               <source src="movie.ogg" type="video/ogg">
                               Your browser does not support the video tag.
